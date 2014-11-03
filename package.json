@@ -1,0 +1,31 @@
+{
+    "name"        : "chronolog",
+    "author"      : "James Nylen <jnylen@gmail.com>",
+    "description" : "Simple library to prefix the date to a stream or string for logging.",
+    "version"     : "0.0.1",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/nylen/chronolog"
+    },
+    "bugs" : {
+        "url" : "https://github.com/nylen/chronolog/issues"
+    },
+    "license"  : "MIT",
+    "keywords" : [
+        "logging",
+        "prefix",
+        "time"
+    ],
+    "scripts" : {
+        "test" : "node node_modules/.bin/mocha"
+    },
+    "main"         : "index.js",
+    "dependencies" : {
+        "moment" : "~2.8.3"
+    },
+    "devDependencies" : {
+        "mocha"  : "~2.0.1",
+        "must"   : "~0.12.0",
+        "rewire" : "~2.1.2"
+    }
+}
